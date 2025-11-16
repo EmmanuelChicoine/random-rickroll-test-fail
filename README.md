@@ -13,10 +13,6 @@ This action comments a gif of Rick Astley when someone opens a new issue.
 
 
 ```
-on:
-  issues:
-    types: [opened]
-
 jobs:
   comment:
     runs-on: ubuntu-latest
